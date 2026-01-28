@@ -18,7 +18,7 @@ let experiencia = getRandomIntInclusive(1000, 10000)
 
 //verifica qual o nivel de xp do jogador
 
-if (experiencia < 1000){
+if (experiencia <= 1000){
     nivel = "Ferro"
 } else if (experiencia >= 1001 && experiencia <= 2000){
     nivel = "Bronze"
